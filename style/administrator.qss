@@ -1,0 +1,30 @@
+QWidget {
+  color:#232C51;
+  background:#232629;
+}
+QLabel#label_title {
+  color: #ff4081;
+  font-family:"KaiTi";
+  font: bold;
+}
+QPushButton {
+  background:#31363b;
+  color:#ff4081;
+  /* border:none; */
+  border:1px solid #ff4081;
+  border-radius:10px;
+  font-size:18px;
+  font-weight:700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+QPushButton:hover {
+  background:#ff4081;
+  color:#31363b;
+  border-bottom:4px solid red;font-weight:700;
+}
+QLabel#label_tip ,QLabel#label_result ,QLabel#label {
+  color: #ff4081;
+  font-family:"KaiTi";
+  font: bold;
+}
