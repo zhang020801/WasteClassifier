@@ -83,11 +83,11 @@ class MyWindow(QWidget):
         c.execute(sql)
         connect = c.fetchall()[0]
         print(connect)
-        if ((self.le1.text() == connect[0]) & (self.le1.text() == connect[1]) & (connect[2] == 0)):
+        if ((self.le1.text() == connect[0]) & (self.le2.text() == connect[1]) & (connect[2] == 0)):
             print('管理员登录')
             self.goDeveloper()
 
-        if((self.le1.text() == connect[0]) & (self.le1.text() == connect[1]) & (connect[2] == 1)):
+        if((self.le1.text() == connect[0]) & (self.le2.text() == connect[1]) & (connect[2] == 1)):
             print('用户登录')
             self.goUser()
     ## 注册账号
